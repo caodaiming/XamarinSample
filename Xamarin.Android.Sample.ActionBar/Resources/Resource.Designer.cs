@@ -41,6 +41,25 @@ namespace Xamarin.Android.Sample.ActionBar
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int actionBarBackgroundColor = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int actionBarTextColor = 2131034113;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -53,22 +72,6 @@ namespace Xamarin.Android.Sample.ActionBar
 			}
 			
 			private Drawable()
-			{
-			}
-		}
-		
-		public partial class Id
-		{
-			
-			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
-			
-			static Id()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Id()
 			{
 			}
 		}
@@ -104,6 +107,28 @@ namespace Xamarin.Android.Sample.ActionBar
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int MyTheme = 2131099648;
+			
+			// aapt resource value: 0x7f060002
+			public const int MyTheme_ActionBar_TitleTextStyle = 2131099650;
+			
+			// aapt resource value: 0x7f060001
+			public const int MyTheme_ActionBarStyle = 2131099649;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
