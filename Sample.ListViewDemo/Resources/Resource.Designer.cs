@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Xamarin.Android.Sample.ActionBar.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Sample.ListViewDemo.Resource", IsApplication=true)]
 
-namespace Xamarin.Android.Sample.ActionBar
+namespace Sample.ListViewDemo
 {
 	
 	
@@ -41,30 +41,17 @@ namespace Xamarin.Android.Sample.ActionBar
 			}
 		}
 		
-		public partial class Color
-		{
-			
-			// aapt resource value: 0x7f050000
-			public const int actionBarBackgroundColor = 2131034112;
-			
-			// aapt resource value: 0x7f050001
-			public const int actionBarTextColor = 2131034113;
-			
-			static Color()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Color()
-			{
-			}
-		}
-		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ax = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int splash = 2130837506;
 			
 			static Drawable()
 			{
@@ -76,14 +63,30 @@ namespace Xamarin.Android.Sample.ActionBar
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int myListView = 2131099648;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int listview_row = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int TabViewPage = 2130903041;
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
@@ -117,14 +120,8 @@ namespace Xamarin.Android.Sample.ActionBar
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int MyTheme = 2131099648;
-			
-			// aapt resource value: 0x7f060002
-			public const int MyTheme_ActionBar_TitleTextStyle = 2131099650;
-			
-			// aapt resource value: 0x7f060001
-			public const int MyTheme_ActionBarStyle = 2131099649;
+			// aapt resource value: 0x7f050000
+			public const int Theme_Splash = 2131034112;
 			
 			static Style()
 			{
