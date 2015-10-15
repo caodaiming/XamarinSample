@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Sample.ListViewDemo.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Sample.Dialog.Resource", IsApplication=true)]
 
-namespace Sample.ListViewDemo
+namespace Sample.Dialog
 {
 	
 	
@@ -45,13 +45,7 @@ namespace Sample.ListViewDemo
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int ax = 2130837504;
-			
-			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
-			
-			// aapt resource value: 0x7f020002
-			public const int splash = 2130837506;
+			public const int Icon = 2130837504;
 			
 			static Drawable()
 			{
@@ -66,8 +60,11 @@ namespace Sample.ListViewDemo
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int myListView = 2131099648;
+			// aapt resource value: 0x7f050000
+			public const int btnBaseDialog = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int btnDialogList = 2131034113;
 			
 			static Id()
 			{
@@ -83,7 +80,10 @@ namespace Sample.ListViewDemo
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int DialogSample = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
@@ -101,6 +101,15 @@ namespace Sample.ListViewDemo
 			// aapt resource value: 0x7f040001
 			public const int ApplicationName = 2130968577;
 			
+			// aapt resource value: 0x7f040002
+			public const int BaseDialog = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public const int DialogList = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int DialogSample = 2130968579;
+			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
@@ -110,22 +119,6 @@ namespace Sample.ListViewDemo
 			}
 			
 			private String()
-			{
-			}
-		}
-		
-		public partial class Style
-		{
-			
-			// aapt resource value: 0x7f050000
-			public const int Theme_Splash = 2131034112;
-			
-			static Style()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Style()
 			{
 			}
 		}
